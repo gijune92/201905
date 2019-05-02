@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 //													___ QueryString ( URL 주소에 넣는 Parameter라고 한다. )
 //													    ___ 2개의 값을 받을 때는, &를 사용한다.
 @WebServlet("/Main2")
-public class Main2 extends HttpServlet {
+public class Main2 extends HttpServlet { 
        
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setCharacterEncoding("UTF-8");

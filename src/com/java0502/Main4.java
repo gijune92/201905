@@ -13,7 +13,7 @@ public class Main4 extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/html; charset=UTF-8");
 		response.setCharacterEncoding("UTF-8");
-		Calc calc = new Calc();
+		Calc calc = new Calc(); 
 		
 		int num1 = Integer.parseInt(request.getParameter("num1"));
 		String operator = request.getParameter("operator");

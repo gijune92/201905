@@ -11,7 +11,6 @@ public class Calc {
 		return (a-b);
 	}
 	public float multiful(int a, int b){
-	// float 명시적 형변환
 		return(float)(a*b);
 	}
 	public float division(int a, int b){

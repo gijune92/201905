@@ -12,7 +12,7 @@ public class Main3 extends HttpServlet {
        
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/html; charset=UTF-8");
-		response.setCharacterEncoding("UTF-8");
+		response.setCharacterEncoding("UTF-8"); 
 		
 		String name = request.getParameter("name");
 		int age = Integer.parseInt(request.getParameter("age"));
