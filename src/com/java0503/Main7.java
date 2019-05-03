@@ -33,6 +33,9 @@ public class Main7 extends HttpServlet {
 					res = res + "몸무게 : " + user_List.get(i).getWeight() + "<br><br>";
 					response.getWriter().print(res);
 				}
+				else if(i == (user_List.size()-1)) {
+					html = "<b>검색된 사용자가 없습니다.</b> <br>";
+				}
 			}
 		}else {
 			user_List.add(new User(request.getParameter("name"), Integer.parseInt(request.getParameter("age")),	Integer.parseInt(request.getParameter("height")), Integer.parseInt(request.getParameter("weight"))));
