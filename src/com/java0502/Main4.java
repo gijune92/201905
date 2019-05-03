@@ -19,9 +19,6 @@ public class Main4 extends HttpServlet {
 		String operator = request.getParameter("operator");
 		int num2 = Integer.parseInt(request.getParameter("num2"));
 		
-		int res = calc.plus(num1, num2);
-		String s_res = "";
-		
 		if(operator.equals("+")) {
 			response.getWriter().print(num1 +" + " + num2 + " = " + calc.plus(num1, num2)+ "<br>");
 		}else if(operator.equals("-")) {
@@ -29,7 +26,7 @@ public class Main4 extends HttpServlet {
 		}else if(operator.equals("*")) {
 			response.getWriter().print(num1 +" * " + num2 + " = " + calc.multiful(num1, num2)+ "<br>");
 		}else if(operator.equals("/")) {
-			response.getWriter().print(num1 +" + " + num2 + " = " + calc.division(num1, num2)+ "<br>");
+			response.getWriter().print(num1 +" / " + num2 + " = " + calc.division(num1, num2)+ "<br>");
 		}else
 			response.getWriter().print("다시 입력하세요");
 		
