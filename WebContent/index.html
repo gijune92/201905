@@ -5,19 +5,26 @@
 		<title>Insert title here</title>
 	</head>
 	<body>
+	
 		<!-- Parameter를 전송하지 않을때, a태그를 사용한다. -->
+		<!-- 	
 		<a href ="http://localhost:8080/201905/Main"> Main</a> 
 		<hr>
 		<form action="http://localhost:8080/201905/Main2" method="get">
+		-->
 		<!-- input 태그안, placeholder는 HTML5에서만 사용이 가능하다. -->
+		<!-- 			
 			<input type="number" name="a" placeholder="a 변수 값"><br>
 			<input type="number" name="b" placeholder="b 변수 값"><br>
 			<input type="text" name="c" placeholder="c 변수 값"><br>
 			<input type="submit" value="Get_전송">
 		</form>
 		<hr>
+		
 		<form action="http://localhost:8080/201905/Main2" method="post">
+		-->
 		<!-- input 태그안, placeholder는 HTML5에서만 사용이 가능하다. -->
+		<!-- 
 			<input type="number" name="a" placeholder="a 변수 값"><br>
 			<input type="number" name="b" placeholder="b 변수 값"><br>
 			<input type="text" name="c" placeholder="c 변수 값"><br>
@@ -30,8 +37,9 @@
 			<input type="number" name="age" placeholder="나이"><br>
 			<input type="submit" value="고객 전송">
 		</form>
-		
+		 -->
 		<!--  계산기 클래스를 이용하여 계산하는 방식을 만들어라~~~ -->
+		<!-- 
 		<hr>
 		<form action="http://localhost:8080/201905/Main4">
 			<input type="number" name="num1" placeholder="첫번째 수"><br>
@@ -39,6 +47,23 @@
 			<input type="number" name="num2" placeholder="두번째 수"><br>
 			<input type="submit" value="계산">
 		</form>
-		
+		 -->
+		 
+		 <h3>사용자 입력</h3>
+		<form action="http://127.0.0.1:8080/201905/Main7">
+			이름 :  <input type="text" name="name" placeholder="이름"><br>
+			나이 :  <input type="number" name="age" placeholder="나이"><br>
+			키 :  <input type="number" name="height" placeholder="키"><br>
+			몸무게 :  <input type="number" name="weight" placeholder="몸무게"><br>
+			<input type ="submit" value="입력">
+		</form>
+		<br><hr><br>
+		<h3>사용자 검색</h3>
+		<form action="http://127.0.0.1:8080/201905/Main7">
+			이름 :  <input type="text" name="search_name" placeholder="이름"><br>
+			<input type ="submit" value="검색">
+		</form>
+		 
+		 
 	</body>
 </html>
