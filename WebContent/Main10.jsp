@@ -11,6 +11,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+
 <%!
 List<User> user_List = new ArrayList<User>();
 %>
